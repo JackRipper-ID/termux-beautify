@@ -1,0 +1,77 @@
+<svg viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
+  <defs>
+    <clipPath id="round">
+      <rect x="0" y="0" width="900" height="470" rx="12" ry="12"/>
+    </clipPath>
+    <radialGradient id="glow" cx="0.18" cy="0.06" r="0.9">
+      <stop offset="0%" stop-color="#00FF9C" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00FF9C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ruleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00FF9C"/>
+      <stop offset="20%" stop-color="#00FF9C"/>
+      <stop offset="35%" stop-color="#00E88F"/>
+      <stop offset="50%" stop-color="#00D182"/>
+      <stop offset="65%" stop-color="#00B875"/>
+      <stop offset="80%" stop-color="#009F68"/>
+      <stop offset="100%" stop-color="#00865B"/>
+    </linearGradient>
+    <linearGradient id="wordGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00FF9C"/>
+      <stop offset="100%" stop-color="#00D182"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect x="0" y="0" width="900" height="470" fill="#05080a"/>
+    <rect x="0" y="0" width="900" height="470" fill="url(#glow)"/>
+
+    <!-- title bar -->
+    <rect x="0" y="0" width="900" height="34" fill="#0b1210"/>
+    <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+    <circle cx="44" cy="17" r="6" fill="#ffbd2e"/>
+    <circle cx="66" cy="17" r="6" fill="#27c93f"/>
+    <text x="450" y="22" fill="#5e7a70" font-size="12.5" text-anchor="middle">termux — bash</text>
+    <line x1="0" y1="34" x2="900" y2="34" stroke="#0f2a22"/>
+
+    <!-- login banner: one line -->
+    <g font-size="15" xml:space="preserve">
+      <text x="30" y="70" fill="#00FF9C" font-weight="bold">▌</text>
+      <text x="44" y="70" fill="url(#wordGrad)" font-weight="bold" font-size="17">TERMUX</text>
+      <text x="129" y="70" fill="#00FF9C" font-weight="bold">▌</text>
+      <text x="150" y="70" fill="#5e7a70" font-size="13">android terminal</text>
+    </g>
+    <!-- animated gradient rule -->
+    <rect x="30" y="84" width="840" height="2" fill="url(#ruleGrad)"/>
+
+    <!-- device info -->
+    <g font-size="12.5" xml:space="preserve">
+      <text x="30" y="118"><tspan fill="#00FF9C" font-weight="bold">SM-N986N</tspan><tspan fill="#3d5c52"> · </tspan><tspan fill="#5e7a70">Android 13</tspan></text>
+      <text x="30" y="138"><tspan fill="#3d5c52">kernel  </tspan><tspan fill="#00C8FF">4.19.325-AjralDEV</tspan></text>
+      <text x="30" y="158"><tspan fill="#3d5c52">uptime  </tspan><tspan fill="#00C8FF">3:35</tspan><tspan fill="#3d5c52"> · </tspan><tspan fill="#00C8FF">134G free</tspan></text>
+      <text x="30" y="178"><tspan fill="#3d5c52">ip      </tspan><tspan fill="#00C8FF">192.168.255.42/24</tspan></text>
+      <text x="30" y="200"><tspan fill="#3d5c52">type </tspan><tspan fill="#00FF9C">alias</tspan><tspan fill="#3d5c52"> for shortcuts · </tspan><tspan fill="#00FF9C">matrix</tspan><tspan fill="#3d5c52"> for rain</tspan></text>
+    </g>
+
+    <!-- prompt -->
+    <g font-size="12.5" xml:space="preserve">
+      <text x="30" y="240"><tspan fill="#00FF9C">┌──[</tspan><tspan fill="#c8ffdc">termux</tspan><tspan fill="#3d5c52">@</tspan><tspan fill="#00FF9C">SM-N986N</tspan><tspan fill="#00FF9C">]─[</tspan><tspan fill="#00C8FF">~/projects</tspan><tspan fill="#00FF9C">]─[</tspan><tspan fill="#00C8FF">main</tspan><tspan fill="#FFD866">*</tspan><tspan fill="#00FF9C">]</tspan></text>
+      <text x="30" y="262"><tspan fill="#00FF9C">└─╼ ❯ </tspan><tspan fill="#c8ffdc">ls</tspan></text>
+
+      <text x="30" y="286"><tspan fill="#7dffb0">build.sh</tspan><tspan fill="#3d5c52">   </tspan><tspan fill="#c8ffdc">README.md</tspan><tspan fill="#3d5c52">   </tspan><tspan fill="#7dffb0">src/</tspan><tspan fill="#3d5c52">   </tspan><tspan fill="#c8ffdc">tool.c</tspan></text>
+
+      <text x="30" y="316"><tspan fill="#00FF9C">┌──[</tspan><tspan fill="#c8ffdc">termux</tspan><tspan fill="#3d5c52">@</tspan><tspan fill="#00FF9C">SM-N986N</tspan><tspan fill="#00FF9C">]─[</tspan><tspan fill="#00C8FF">~/projects</tspan><tspan fill="#00FF9C">]─[</tspan><tspan fill="#00C8FF">main</tspan><tspan fill="#FFD866">*</tspan><tspan fill="#00FF9C">]</tspan></text>
+      <text x="30" y="338"><tspan fill="#00FF9C">└─╼ ❯ </tspan><tspan fill="#c8ffdc">matrix</tspan></text>
+    </g>
+
+    <!-- matrix rain -->
+    <g font-size="11.5" fill="#007a55" xml:space="preserve">
+      <text x="30" y="366">0A1F<tspan fill="#00FF9C">$#</tspan>0110AB<tspan fill="#00FF9C">1</tspan>01F<tspan fill="#00E88F">#</tspan>0110<tspan fill="#00FF9C">0</tspan>1A01<tspan fill="#00E88F">0</tspan>1B<tspan fill="#00FF9C">#</tspan>01F</text>
+      <text x="30" y="386"><tspan fill="#00FF9C">1</tspan>0F1A01<tspan fill="#00E88F">$</tspan>F01<tspan fill="#00FF9C">0</tspan>1101<tspan fill="#00FF9C">A</tspan>F01<tspan fill="#00E88F">#</tspan>0<tspan fill="#00FF9C">1</tspan>0F01<tspan fill="#00E88F">$</tspan></text>
+      <text x="30" y="406">F01<tspan fill="#00FF9C">$</tspan>01A<tspan fill="#00E88F">1</tspan>0F1<tspan fill="#00FF9C">0</tspan>1AB01<tspan fill="#00FF9C">#</tspan>01F0<tspan fill="#00E88F">1</tspan>01A<tspan fill="#00FF9C">0</tspan></text>
+      <text x="30" y="426">01AB0<tspan fill="#00FF9C">1</tspan>F01<tspan fill="#00E88F">$</tspan>01F<tspan fill="#00FF9C">A</tspan>01B<tspan fill="#00E88F">0</tspan>1F01<tspan fill="#00FF9C">#</tspan>010<tspan fill="#00E88F">A</tspan>01</text>
+    </g>
+
+    <text x="870" y="452" fill="#1b3a32" font-size="10.5" text-anchor="end">termux-beautify · v1.0.0</text>
+  </g>
+</svg>
