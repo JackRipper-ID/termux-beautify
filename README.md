@@ -11,7 +11,7 @@
 [![Theme](https://img.shields.io/badge/theme-modern%20hacker-00D182?style=flat-square&labelColor=05080a)](#what-you-get)
 [![License](https://img.shields.io/badge/license-MIT-00B875?style=flat-square&labelColor=05080a)](LICENSE)
 
-<img src="demo.gif" alt="login animation: scramble, typewriter and scanning rule" width="820">
+<img src="demo.gif" alt="full login animation: pulse, scramble, glitch, typewriter, rule sweep and prompt" width="400">
 
 </div>
 
